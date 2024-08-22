@@ -1,0 +1,81 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background: #f2f4f7;
+}
+.main .forgetuser{
+    /* background-color: white; */
+    height: 90vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   /* justify-content: center; */
+   margin-top: 4%;
+}
+.main .forgetuser .icon{
+    width: 250px;
+}
+.main .forgetuser .icon img{
+    width: 100%;
+}
+.main .forgetuser .bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    gap: 10px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 10px;
+}
+.main .forgetuser .bottom h3{
+    /* font-size: 16px; */
+    font-weight: 450;
+    padding-bottom: 20px;
+    color: rgb(66, 66, 66);
+}
+.main .forgetuser .bottom input{
+    padding: 14px;
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    /* outline: 0; */
+}
+input:focus{
+    outline: 1px solid red;
+}
+input::placeholder{
+    font-size: 17px;
+}
+.main .forgetuser .bottom button{
+    padding: 14px;
+    border: none;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #1877f2;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+}
+.main .forgetuser .bottom p{
+    font-size: 14px;
+    color: #1877f2;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.bottom p:hover{
+    text-decoration: underline;
+}
+
+.bottom h6{
+    font-size: 12px;
+    color: rgb(255, 78, 78);
+    margin-top: -5px;
+}

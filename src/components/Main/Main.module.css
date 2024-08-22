@@ -1,0 +1,396 @@
+.main {
+  width: 100%;
+  background-color: #f0f2f5;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+.main .mainTop {
+  display: flex;
+  width: 100%;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+.main .mainTop .left {
+  height: 90vh;
+  width: 22%;
+  min-width: 300px;
+  max-width: 310px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 10px; */
+  padding: 10px;
+  overflow-y: scroll;
+  /* border: 1px solid red; */
+  display: block;
+}
+.mainTop .left::-webkit-scrollbar {
+  display: none;
+}
+
+.mainTop .left .leftInside {
+  width: 100%;
+  display: flex;
+  padding: 4px 12px;
+  gap: 15px;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.leftInside p {
+  color: rgb(29, 29, 29);
+  font-size: 14px;
+  font-weight: 450;
+}
+
+.leftImg {
+  /* border: 1px solid red; */
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+
+.leftInside .leftImg img {
+  width: 25px;
+  background-position: center;
+  padding-top: 5px;
+}
+.leftInside:hover {
+  background: rgb(236, 236, 236);
+}
+
+/* --------------middle----------------- */
+
+.mainTop .middle {
+  flex: 53%;
+  min-width: 500px;
+  max-width: 700px;
+  /* border: 1px solid blue; */
+  display: flex;
+
+  /* align-items: center; */
+  justify-content: center;
+  height: 90vh;
+  overflow-y: scroll;
+}
+.mainTop .middle::-webkit-scrollbar {
+  display: none;
+}
+
+/* ------------------middleFirst------------------- */
+
+.middle .middleFirst {
+  width: 550px;
+  /* border: 1px solid red; */
+  margin-top: 15px;
+}
+
+.firstInside {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 10px;
+  overflow: scroll;
+}
+.firstInside::-webkit-scrollbar {
+  display: none;
+}
+.middleFirst .statusPhoto {
+  width: 140px;
+  /* height: 220px; */
+  background: gray;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+}
+.statusPhoto .name {
+  width: 140px;
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+.statusPhoto .little {
+  position: absolute;
+  top: 20px;
+  left: 15px;
+}
+.little .littleimg {
+  border: 2px solid rgb(45, 63, 226);
+  padding: 1px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.statusPhoto img {
+  width: 140px;
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.middleInside .middleSecond {
+  width: 500px;
+  /* border: 1px solid red; */
+  padding: 15px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.middleSecond .secondTop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.middleSecond .secondTop input {
+  flex: 1;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 14px;
+  background-color: #f0f2f5;
+  cursor: pointer;
+}
+.secondTop input::placeholder {
+  font-size: 16px;
+}
+.middleSecond .secondTop img {
+  width: 40px;
+}
+.middleSecond hr {
+  margin: 8px auto;
+  color: grey;
+}
+
+.middleSecond .secondBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 0px 12px; */
+}
+.secondBottom div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 14px;
+  color: rgb(58, 58, 58);
+  padding: 5px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 400;
+}
+.secondBottom div:hover {
+  background-color: rgb(235, 234, 234);
+}
+
+.middleSecond .secondBottom div img {
+  width: 25px;
+}
+
+/* ---------------mainPost---------------- */
+
+.middleInside{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.middleInside .middleThird {
+  width: 500px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.middleThird {
+  margin-top: 15px;
+}
+
+.middleThird .profile {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+}
+.profile .cross{
+    color: rgb(109, 109, 109);
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 28px;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.middleThird .profile img {
+  width: 40px;
+}
+.middleThird .profile .profilename {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.middleThird .profile div p {
+  font-size: 14px;
+  color: rgb(82, 81, 81);
+}
+.middleThird .profile div p span {
+  font-size: 14px;
+  color: black;
+  font-weight: 450;
+}
+
+.middleThird .desc {
+  padding: 0px 15px 15px 15px;
+  font-size: 15px;
+}
+
+.middleThird .mainPhoto img {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bottom {
+  padding: 15px;
+}
+.bottom .like {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 15px;
+}
+
+.like .first {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  color: rgb(22, 22, 22);
+  cursor: pointer;
+}
+.like .first p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.like .second {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.like .second div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  color: rgb(71, 71, 71);
+  cursor: pointer;
+}
+.second div p {
+  font-size: 14px;
+}
+
+.comment {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.comment div {
+  display: flex;
+  font-size: 20px;
+  gap: 5px;
+  color: rgb(53, 53, 53);
+  align-items: center;
+  justify-content: center;
+}
+.comment div p {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* -----------------------third--------------------- */
+
+.mainTop .right {
+  width: 25%;
+  min-width: 300px;
+  max-width: 310px;
+  /* border: 1px solid green; */
+}
+.right .rightInside {
+  padding: 15px;
+}
+.rightInside .birthday h3 {
+  color: rgb(41, 41, 41);
+}
+.rightInside .birthday div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-top: 10px;
+}
+.rightInside .birthday div p {
+  font-size: 14px;
+  color: rgb(53, 51, 51);
+}
+.rightInside .birthday div p span {
+  color: black;
+  font-weight: 500;
+}
+.rightInside hr {
+  margin-top: 15px;
+}
+.contacts {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.contacts .contacttop {
+  color: rgb(75, 75, 75);
+  padding-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.rightInside .contacts .contactbottom {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.rightInside .contacts .contactbottom img {
+  width: 30px;
+}
+
+.rightInside .birthday div img {
+  width: 30px;
+}
+
+
+@media (max-width:1050px) {
+    .main .mainTop .left {
+        display: none;
+    }
+    .main .mainTop .right{
+        display: none;
+    }
+   
+}
+@media (min-width:1400px) {
+  .main .mainTop {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+   
+}

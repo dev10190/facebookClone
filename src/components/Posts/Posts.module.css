@@ -1,0 +1,131 @@
+
+.middleInside{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.middleThird {
+  width: 500px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.middleThird {
+  margin-top: 15px;
+}
+
+.middleThird .profile {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+}
+.profile img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.profile .cross{
+    color: rgb(109, 109, 109);
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 28px;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.middleThird .profile img {
+  width: 40px;
+}
+.middleThird .profile .profilename {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.middleThird .profile div p {
+  font-size: 14px;
+  color: rgb(82, 81, 81);
+}
+.middleThird .profile div p span {
+  font-size: 14px;
+  color: black;
+  font-weight: 450;
+}
+
+.middleThird .desc {
+  padding: 0px 15px 15px 15px;
+  font-size: 14px;
+  color: rgb(54, 54, 54);
+  font-size: 15px;
+}
+
+.middleThird .mainPhoto img {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bottom {
+  padding: 15px;
+}
+.bottom .like {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 15px;
+}
+
+.like .first {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  color: rgb(22, 22, 22);
+  cursor: pointer;
+}
+.like .first p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.like .second {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.like .second div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  color: rgb(71, 71, 71);
+  cursor: pointer;
+}
+.second div p {
+  font-size: 14px;
+}
+
+.comment {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.comment div {
+  display: flex;
+  font-size: 20px;
+  gap: 5px;
+  color: rgb(53, 53, 53);
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.comment div p {
+  font-size: 15px;
+  font-weight: 500;
+}

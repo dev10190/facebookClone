@@ -1,0 +1,173 @@
+.main{
+    width: 100%;
+
+}
+.main .video{
+    display: flex;
+}
+.main .video .left{
+    /* border: 1px solid red; */
+    width: 25%;
+    height: 90vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: 15px;
+}
+.video .left .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left .top p{
+    font-size: 25px;
+    font-weight: 600;
+}
+.left .top div{
+    background-color: #f0f2f5;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.left .middle input{
+    width: 100%;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: #f0f2f5;
+}
+.left .bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+}
+.left .bottom .bottomMenu{
+    display: flex;
+    gap: 15px;
+    border-radius: 5px;
+    padding: 5px 5px;
+    /* justify-content: center; */
+    align-items: center;
+    cursor: pointer;
+}
+.bottom .bottomMenu p{
+    font-size: 14px;
+    font-weight: 450;
+}
+.bottom .bottomMenu:hover{
+    background-color: #f0f2f5;
+}
+.bottom .bottomMenu div{
+    background-color: #f0f2f5;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+
+
+
+/* -------------------Right Side------------------ */
+
+.main .video .right{
+    
+    display: flex;
+    background-color: #f0f2f5;
+    width: 75%;
+    flex-direction: column;
+    height: 90vh;
+    gap: 12px;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    overflow-y: scroll;
+}
+.right .rightBlog{
+    background-color: white;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+.rightBlog .profile{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-left: 10px;
+}
+.rightBlog .profile p{
+    font-size: 12px;
+    color: grey;
+}
+.rightBlog .profile .time{
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+}
+.rightBlog .profile .photo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: contain;
+}
+.rightBlog .hastags{
+    padding: 0px 10px;
+}
+.rightBlog .hastags p{
+    font-size: 15px;
+    font-weight: 500;
+}
+/* .rightBlog .videos{
+    width: 100%;
+    height: 350px;
+    border: 1px solid blue;
+    margin: 15px 0px;
+    overflow: hidden;
+} */
+.rightBlog .videos .video_wrapper{
+    width: 100%;
+    /* height: 350px; */
+    margin: 8px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.react_palyer{
+    height: 100%;
+    width: 100%;
+  }
+
+.rightBlog .likes{
+    display: flex;
+    gap: 5px;
+    padding-left: 10px;
+}
+.rightBlog .likes div{
+    display: flex;
+    border-radius: 5px;
+    gap: 5px;
+    font-size: 14px;
+    padding: 10px 15px;
+    background-color: #f0f2f5;
+    cursor: pointer;
+}
+
+

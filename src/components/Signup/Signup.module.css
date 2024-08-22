@@ -1,0 +1,143 @@
+.main{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.6);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup{
+  width: 450px;
+  background-color: white;
+  padding: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.signup .top{
+  position: relative;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgb(202, 202, 202);
+}
+.signup .close{
+  position: absolute;
+  cursor: pointer;
+  top: 5px;
+  right: 5px;
+  font-size: 30px;
+  color: grey;
+}
+.top h2{
+  font-size: 33px;
+  margin-bottom: 5px;
+  font-size: 300;
+}
+.top p{
+  font-size: 14px;
+  color: grey;
+}
+.signup .bottom{
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+.bottom div{
+  display: flex;
+  width: 100%;
+  gap: 8px;
+}
+.bottom div input{
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid rgb(221, 220, 220);
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+  background-color: #f5f6f7;
+}
+.bottom input{
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid rgb(221, 220, 220);
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+  background-color: #f5f6f7;
+}
+.bottom .input{
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid rgb(221, 220, 220);
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+  background-color: #f5f6f7;
+ 
+}
+
+
+.signup .conditions{
+  display: flex;
+  flex-direction: column;
+  font-size: 11px;
+  gap: 9px;
+  color: rgb(77, 76, 76);
+}
+.signup .conditions p span{
+  color: blue;
+}
+
+.gender, .date{
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.dates{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+.dates .dateselect{
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid rgb(221, 220, 220);
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+  background-color: #f5f6f7;
+}
+.gender p, .date p{
+  font-size: 12px;
+}
+.gender .genderselect{
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid rgb(221, 220, 220);
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+  background-color: #f5f6f7;
+}
+
+.signup button{
+  width: 250px;
+  background: #00a400;
+  color: white;
+  padding: 8px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 6000;
+  margin-top: 15px;
+}
+
+

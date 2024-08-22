@@ -1,0 +1,151 @@
+
+.login {
+  background: #f2f4f7;
+  padding: 8% 0px;
+  height: 100vh;
+ 
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+  gap: 50px;
+}
+.main .left {
+  padding-right: 70px;
+  position: relative;
+  min-width: 400px;
+}
+.login .main .left .icon {
+  position: absolute;
+  width: 350px;
+  top: -105px;
+  left: -30px;
+}
+
+.main .left p {
+  font-size: 27px;
+  font-weight: 400;
+  white-space: nowrap;
+}
+.main .right {
+  /* border: 1px solid red; */
+  width: 400px;
+}
+.main .right .box {
+  display: flex;
+  min-width: 400px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid rgb(211, 209, 209);
+}
+.main .right .box .box1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+.right .box input {
+  width: 100%;
+  font-size: 16px;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid rgb(204, 202, 202);
+  outline: none;
+}
+
+.right .box input:focus {
+  outline: 0.5px solid #0866ff;
+}
+
+.box .loginBtn {
+  background-color: #0866ff;
+  border: none;
+  outline: none;
+  padding: 15px;
+  font-size: 18px;
+  color: white;
+  font-weight: 550;
+  width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.box .loginBtn:hover {
+  background-color: #2579ff;
+}
+
+.box p {
+  font-size: 14px;
+  color: #0866ff;
+  cursor: pointer;
+}
+.box p:hover {
+  text-decoration: underline;
+}
+.box hr {
+  width: 100%;
+  margin: 10px 0px;
+}
+
+.box .createBtn {
+  background-color: #42b72a;
+  border: none;
+  outline: none;
+  padding: 15px;
+  font-size: 16px;
+  color: white;
+  font-weight: 550;
+  width: 60%;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.box .createBtn:hover {
+  background-color: #46c52c;
+}
+
+.right .para {
+  font-size: 14px;
+  text-align: center;
+  color: grey;
+  margin-top: 15px;
+}
+.right .para span {
+  color: black;
+  cursor: pointer;
+}
+.right .para span:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 800px) {
+  .main{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    gap: 50px;
+    height: 100vh;
+  }
+  .main .left{
+    padding-right: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .login .main .left .icon {
+    position: absolute;
+    width: 350px;
+    top: -105px;
+    left: 40px;
+  }
+}
